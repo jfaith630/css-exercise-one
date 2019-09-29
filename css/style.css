@@ -1,36 +1,49 @@
-body
+/*Set font size of all text within <body> element to 14px:*/
+body {
   font-size: 14px;
 }
 
+/*Format layout and background-color of fixed, yellow navbar at top of page:*/
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
-
+/*Format layout on page of <section> element:*/
 section {
   margin: 0 auto;
   width: 60%;
 }
 
+/*Style h1 text within navbar at top of page:*/
 h1 {
   font-family sans-serif;
   font-size: 2em;
 }
 
+/*Format layout on page of any <h3> element OR any element with a class of "example":*/
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align center;
 }
 
+/*Style any h3 text:*/
 h3 {
   font-size: 1.3em;
 }
 
-.element {
+/*Format layout and background-color of any element with class of "element" or "element2":*/
+.element, .element2 {
   background-color: green;
   height: 100px;
   margin 10px 0;
   width: 100%;
+}
+
+/*Change the background-color of just the last three elements which have class "element2":*/
+.element2 {
+  background-color: blue;
+}
